@@ -14,6 +14,7 @@
 		EC2AE61E23EB5B3B00625705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2AE61D23EB5B3B00625705 /* Assets.xcassets */; };
 		EC2AE62123EB5B3B00625705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2AE61F23EB5B3B00625705 /* LaunchScreen.storyboard */; };
 		EC2AE62C23EB5B3C00625705 /* ManualGoodbye2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AE62B23EB5B3C00625705 /* ManualGoodbye2Tests.swift */; };
+		EC2AE63723EB5BC400625705 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AE63623EB5BC400625705 /* VerticalStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		EC2AE62723EB5B3C00625705 /* ManualGoodbye2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManualGoodbye2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2AE62B23EB5B3C00625705 /* ManualGoodbye2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualGoodbye2Tests.swift; sourceTree = "<group>"; };
 		EC2AE62D23EB5B3C00625705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2AE63623EB5BC400625705 /* VerticalStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				EC2AE61D23EB5B3B00625705 /* Assets.xcassets */,
 				EC2AE61F23EB5B3B00625705 /* LaunchScreen.storyboard */,
 				EC2AE62223EB5B3B00625705 /* Info.plist */,
+				EC2AE63623EB5BC400625705 /* VerticalStackView.swift */,
 			);
 			path = ManualGoodbye2;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC2AE61923EB5B3A00625705 /* ViewController.swift in Sources */,
+				EC2AE63723EB5BC400625705 /* VerticalStackView.swift in Sources */,
 				EC2AE61523EB5B3A00625705 /* AppDelegate.swift in Sources */,
 				EC2AE61723EB5B3A00625705 /* SceneDelegate.swift in Sources */,
 			);
