@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let greetingLabel = UILabel()
+        greetingLabel.textColor = .secondaryLabel
+        greetingLabel.font = UIFont.preferredFont(forTextStyle: .title1)
+        greetingLabel.text = "Hello"
+        
         let stackView = UIStackView()
         view.addSubview(stackView)
         
@@ -22,6 +27,8 @@ class ViewController: UIViewController {
         
         stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        
+        stackView.addArrangedSubview(greetingLabel)
         
         
     }
