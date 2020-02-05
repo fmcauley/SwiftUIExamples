@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    private let greetingLabel = GreetingLabel(display: "Hello")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let stackView = VerticalStackView(in: view, containing: greetingLabel)
+        stackView.centered()
     }
 
 
